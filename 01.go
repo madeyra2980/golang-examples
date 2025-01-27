@@ -4,21 +4,29 @@ import "fmt"
 
 func main() {
 
-    //Сөздік жол деректер типі
+// Динамикалық типтілеу
+	name := "Madiyar"
+	age := 22
+
+
+	fmt.Println(name, age)
+// Статикалық типтілеу
+
+// Сөздік жол деректер типі
     var str string;
     str = "Madeyra"
 
-    // Бүтін санның дерек типі
+// Бүтін санның дерек типі
     var num float32 
     num = 12;
 
-    // Қалдық санның дерек типі
+// Қалдық санның дерек типі
     var celcies float32
     celcies = 32.5
 
     fmt.Println(celcies + num) 
 
-    // Логикалық деректің типі
+// Логикалық деректің типі
     var isAlive bool;
 
     var res bool;
@@ -26,6 +34,6 @@ func main() {
 
     isAlive = res; 
 
-    fmt.Println(isAlive)
+    fmt.Println(isAlive, str)
 
 }
