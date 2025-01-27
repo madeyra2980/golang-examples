@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 
+    var str string;
+    str = "Madeyra"
+
     // Бүтін санның дерек типі
     var num float32 
     num = 12;
