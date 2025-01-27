@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 
+    //Сөздік жол деректер типі
     var str string;
     str = "Madeyra"
 
