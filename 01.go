@@ -29,6 +29,3 @@ func main() {
     fmt.Println(isAlive)
 
 }
-
-
-
